@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+
+}
+
+body {
+    background-image: url(../bg-img.jpg);
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.display {
+    font-family: 'Roboto', sans-serif;
+    color: burlywood;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 4%;
+}
+
+.playerX {
+    color: green;
+    font-family: 'Itim', cursive;
+}
+
+.playerO {
+    color: blue;
+    font-family: 'Itim', cursive;
+}
+
+.player-tiles {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    max-width: 300px;
+    margin-top: 5%;
+}
+
+.tile {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+button {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    margin-top: 4%;
+}
+
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+
+.declare-result {
+    color: burlywood;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 5%;
+
+}
+
+.hide {
+    display: none;
+}
+
+button:hover {
+    border: 1px solid blanchedalmond;
+}
